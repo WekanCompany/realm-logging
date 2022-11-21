@@ -18,7 +18,6 @@ const DogSchema = {
  * From the list of different available log levels, one of the log level can be returned
  * @return {LogLevel} Can be any of loglevel specified in realm.
  */
-
 function getLogLevel(): Realm.App.Sync.LogLevel {
     // 'all' | 'trace' | 'debug' | 'detail' | 'info' | 'warn' | 'error' | 'fatal' | 'off'
     return 'all';
